@@ -1,15 +1,10 @@
-import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import MyRoute from "./MyRoute";
+import AddTach from "./component/AddTach";
 
 function App() {
-  return (
-    <div className="App">
-      <BrowserRouter>
-        <MyRoute/>
-      </BrowserRouter>
-    </div>
-  );
+  return <div className="App">
+    <AddTach/>
+  </div>;
 }
 
 export default App;
